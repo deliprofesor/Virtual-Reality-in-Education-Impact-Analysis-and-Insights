@@ -6,7 +6,7 @@ Yaş ve VR Kullanım Saatleri:
 **Yaş Ortalaması:** 21.18, **Medyanı:** 21, **Modu:** 21 olarak hesaplanmıştır. Bu, verinin büyük kısmının 21 yaş civarına yoğunlaştığını gösteriyor.
 - **VR Kullanım Saatleri:** Haftalık VR kullanım süresinin minimum değeri 0 saat, maksimum değeri 10 saat, ve standart sapması 3.14 olarak bulunmuştur. Bu, çoğu öğrencinin haftada 3-4 saat arasında VR kullandığını ve bazı öğrencilerin daha fazla kullanma eğiliminde olduğunu gösteriyor.
   
-##Perceived Effectiveness of VR Dağılımı:
+## Perceived Effectiveness of VR Dağılımı:
 
 1: 1049 öğrenci, 2: 1035 öğrenci, 3: 993 öğrenci, 5: 968 öğrenci, 4: 955 öğrenci olarak sırasıyla her seviyede dağılım gözlemlenmiştir. Bu, VR'nin etkinliğine dair algıların geniş bir yelpazeye yayıldığını gösteriyor, ancak çoğunlukla öğrenciler etkinliği yüksek olarak değerlendiriyor.
 
@@ -29,7 +29,7 @@ VR Kullanımı ve Öğrenmeye Devam Etme İlgi Oranı: VR kullanan ve kullanmaya
 
 ## Regresyon Analizi
 
-- **Lojistik Regresyon:** Perceived Effectiveness of VR değişkenini tahmin etmek amacıyla VR kullanım süresi (Hours_of_VR_Usage_Per_Week) ve eğitmenlerin VR yeterlilik seviyesi (Instructor_VR_Proficiency) kullanılarak bir lojistik regresyon modeli kuruldu.
+**Lojistik Regresyon:** Perceived Effectiveness of VR değişkenini tahmin etmek amacıyla VR kullanım süresi (Hours_of_VR_Usage_Per_Week) ve eğitmenlerin VR yeterlilik seviyesi (Instructor_VR_Proficiency) kullanılarak bir lojistik regresyon modeli kuruldu.
 **Sonuçlar:** Hours_of_VR_Usage_Per_Week için katsayı 0.0016 ve Instructor_VR_Proficiency_Encoded için katsayı 0.00106 çıktı. Bu katsayılar, her bir değişkenin öğrenme çıktıları üzerindeki etkisini gösteriyor. Bu düşük katsayılar, değişkenlerin öğrenme çıktılarında belirgin bir değişikliğe yol açmadığını gösteriyor.
   
 ## Segmentasyon ve Kümeleme (Clustering)
